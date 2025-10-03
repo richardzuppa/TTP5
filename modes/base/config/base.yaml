@@ -1,0 +1,66 @@
+#config_version=6
+
+mode:
+  start_events: ball_started
+  priority: 100
+
+slide_player:
+  mode_base_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: text
+        text: 'POTATO VALUE: (potato)'
+        y: 40%
+
+ 
+
+shots:
+  my_first_shot:
+    switch: s_right_inlane
+  center_rollover_shot:
+    switch: s_center_rollover
+    show_tokens:
+      led: l_light4
+    profile: center_rollover_profile
+
+shot_profiles:
+  center_rollover_profile:
+    states:
+     - name: unlit
+       show: off
+     - name: flashing
+       show: flash 
+     - name: lit
+       show: on
+    loop: true
+
+variable_player:
+  s_right_inlane_active:
+    score: 100
+  s_left_flipper_active:
+    score: 1000
+    potato: 1
+  s_right_flipper_active:
+    potato: -2
+  my_first_shot_hit:
+    score: 42
+  center_rollover_shot_hit:
+    score: 125

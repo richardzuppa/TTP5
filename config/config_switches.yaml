@@ -1,0 +1,66 @@
+#config_version=6
+
+switches:
+  #Botom Switches
+
+  s_left_flipper:
+    number: 10
+    tags: left_flipper
+  s_right_flipper:
+    number: 11
+    tags: right_flipper
+  
+  s_trough1:
+    number: 2 
+    type: NC
+  s_trough2:
+    number: 3 
+    type: NC
+  s_trough3:
+    number: 4 
+    type: NC
+  s_trough4:
+    number: 5 
+    type: NC
+  s_trough5:
+    number: 6 
+    type: NC
+  s_trough6:
+    number: 7 
+    type: NC
+  s_trough_jam:
+    number: 8 
+    type: NC
+
+  s_plunger:
+    number: 9
+  s_start:
+    number: 15
+    tags: start
+
+  #Botom Lanes Switches  
+  s_right_inlane:
+    number: 16
+    tags: right_inlane, playfield_active
+  s_left_inlane:
+    number: 17
+    tags: left_inlane, playfield_active
+  s_left_outlane:
+    number: 18
+    tags: left_outlane
+  s_right_outlane:
+    number: 19
+    tags: right_outlane
+  
+  #Upper Rollover Switches
+  s_center_rollover:
+    number: 100
+    tags: center_rollover
+  
+  #autofire
+  s_sling_left:
+    number: 200
+  s_sling_right:
+    number: 201
+  
+   
