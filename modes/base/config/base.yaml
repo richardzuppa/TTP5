@@ -38,7 +38,7 @@ shots:
   center_rollover_shot:
     switch: s_center_rollover
     show_tokens:
-      led: l_light4
+      led: l_left_rollover
     profile: center_rollover_profile
 
 shot_profiles:

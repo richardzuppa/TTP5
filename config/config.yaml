@@ -19,17 +19,34 @@ displays:
     width: 800
     height: 600
 
-
-  
 lights:
-  l_light1:
+  l_T:
     number: 1
-  l_light2:
+  l_I:
     number: 2
-  l_light3:
+  l_M:
     number: 3
-  l_light4:
+  l_E:
     number: 4
+  l_Tb:
+    number: 5
+  l_R:
+    number: 6
+  l_A:
+    number: 7
+  l_V:
+    number: 8
+  l_Eb:
+    number: 9
+  l_L:
+    number: 10
+
+  l_left_rollover:
+    number: 11
+  l_center_rollover:
+    number: 12
+  l_right_rollover:
+    number: 13
 
 keyboard:
   z:
