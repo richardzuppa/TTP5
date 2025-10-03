@@ -1,5 +1,7 @@
 #show_version=6
 
+
+# Time Droptarget
 - duration: 1
   lights:
     l_I: 0
@@ -15,4 +17,16 @@
 - duration: 1
   lights:
     l_M: 0
+    l_E: ff
+- duration: 1
+  lights:
+    l_E: 0
+    l_M: ff
+- duration: 1
+  lights:
+    l_M: 0
     l_I: ff
+- duration: 1
+  lights:
+    l_I: 0
+    l_T: ff
