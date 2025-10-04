@@ -53,9 +53,15 @@ switches:
     tags: right_outlane
   
   #Upper Rollover Switches
-  s_center_rollover:
+  s_left_rollover:
     number: 100
+    tags: left_rollover
+  s_center_rollover:
+    number: 101
     tags: center_rollover
+  s_right_rollover:
+    number: 102
+    tags: right_rollover
   
   #autofire
   s_sling_left:

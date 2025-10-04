@@ -35,22 +35,44 @@ slide_player:
 shots:
   my_first_shot:
     switch: s_right_inlane
-  center_rollover_shot:
+#   center_rollover_shot:
+#     switch: s_center_rollover
+#     show_tokens:
+#       led: l_left_rollover
+#     profile: center_rollover_profile
+
+# shot_profiles:
+#   center_rollover_profile:
+#     states:
+#      - name: unlit
+#        show: off
+#      - name: flashing
+#        show: flash 
+#      - name: lit
+#        show: on
+#     loop: true
+
+# Lane light change by flipper
+  left_rollover:
+    switch: s_left_rollover
+    show_tokens:
+      light: l_left_rollover
+  center_rollover:
     switch: s_center_rollover
     show_tokens:
-      led: l_left_rollover
-    profile: center_rollover_profile
+      light: l_center_rollover
+  right_rollover:
+    switch: s_right_rollover
+    show_tokens:
+      light: l_right_rollover
 
-shot_profiles:
-  center_rollover_profile:
-    states:
-     - name: unlit
-       show: off
-     - name: flashing
-       show: flash 
-     - name: lit
-       show: on
-    loop: true
+shot_groups:
+  rollover_lanes:
+    shots: left_rollover, center_rollover, right_rollover
+    rotate_left_events: s_left_flipper_active
+    rotate_right_events: s_right_flipper_active
+    reset_events:
+      rollover_lanes_lit_complete: 1s
 
 variable_player:
   s_right_inlane_active:

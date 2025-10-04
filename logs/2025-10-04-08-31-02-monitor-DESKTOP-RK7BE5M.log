@@ -1,0 +1,5 @@
+2025-10-04 08:31:02,479 : INFO : root : Loading MPF Monitor Version 0.57.1
+2025-10-04 08:31:02,620 : INFO : Core : Looking for MPF at localhost:5051
+2025-10-04 08:33:51,765 : INFO : BCP Client : Connected to MPF
+2025-10-04 08:40:31,484 : INFO : BCP Client : Connected to MPF
+2025-10-04 08:48:07,431 : INFO : BCP Client : Connected to MPF
