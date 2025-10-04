@@ -30,7 +30,12 @@ slide_player:
         text: 'POTATO VALUE: (potato)'
         y: 40%
 
- 
+show_player:
+  rollover_lanes_lit_complete: 
+    rollover_lanes_complete:
+      speed: 20
+      loops: 10
+      priority: 1
 
 shots:
 
@@ -78,6 +83,8 @@ variable_player:
     score: 200
   right_rollover_shot_hit:
     score: 300
+  rollover_lanes_lit_complete: 
+    score: 5000
   
 
 
