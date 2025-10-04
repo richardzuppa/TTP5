@@ -105,6 +105,25 @@ lights:
     number: 34
   l_bonusx7000:
     number: 35
+  
+  # Time Warp
+  l_timewarp1:
+    number: 36
+  l_timewarp2:
+    number: 37
+  l_timewarp3:
+    number: 38
+  l_timewarp4:
+    number: 39
+  l_timewarp5:
+    number: 40
+  l_timewarp6:
+    number: 41
+  l_timewarp7:
+    number: 42
+  l_timewarp8:
+    number: 43
+  
 
 keyboard:
   z:

@@ -134,6 +134,22 @@ switches:
     number: 170
     tags: right_standup
 
+ # Scoops
+  s_left_scoop:
+    number: 171
+    tags: left_scoop
+  s_right_scoop:
+    number: 172
+    tags: right_scoop
+
+# Bumpers
+  s_bumper_1:
+    number: 173
+    tags: bumper_1
+  s_bumper_2:
+    number: 174
+    tags: bumper_2
+
   
   #autofire
   s_sling_left:
