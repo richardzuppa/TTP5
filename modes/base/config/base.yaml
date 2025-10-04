@@ -65,8 +65,7 @@ shot_groups:
     shots: left_rollover_shot, center_rollover_shot, right_rollover_shot
     rotate_left_events: s_left_flipper_active
     rotate_right_events: s_right_flipper_active
-    reset_events:
-      rollover_lanes_lit_complete: 1s
+    reset_events: rollover_lanes_lit_complete  
   
 
 

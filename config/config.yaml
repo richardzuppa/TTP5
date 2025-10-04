@@ -57,6 +57,54 @@ lights:
     number: 15
   l_top_lef_standup:
     number: 16
+  l_top_left_standup_2:
+    number: 17
+
+  #Botom Lanes
+  l_left_out_lane:
+    number: 18
+  l_right_out_lane:
+    number: 19
+  l_left_inlane:
+    number: 20
+  l_right_inlane: 
+    number: 21
+
+  # Center Targets
+  l_left_center_target:
+    number: 22
+  l_center_center_target:
+    number: 23
+  l_right_center_target:
+    number: 24
+
+  # Scoops
+  l_left_scoop:
+    number: 25
+  l_right_scoop:
+    number: 26
+  
+  # Corridors
+  l_left_corridor:
+    number: 27
+  l_left_corridor_2:
+    number: 28
+  l_right_corridor:
+    number: 29
+  
+  # Botom 
+  l_shot_again:
+    number: 30
+  l_bonusx100:
+    number: 31
+  l_bonusx1000:
+    number: 32
+  1_bonusx2000:
+    number: 33
+  l_bonusx5000: 
+    number: 34
+  l_bonusx7000:
+    number: 35
 
 keyboard:
   z:
